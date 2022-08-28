@@ -9,7 +9,9 @@ Document
 
 /**
 Use a better box model (opinionated).
-*/@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Nunito:wght@300&display=swap');
+*/
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Nunito:wght@300&display=swap');
+
 
 img:hover {
   opacity: 0.8;
@@ -17,30 +19,14 @@ img:hover {
   ;
 }
 
-.avt {
-  padding: 3px;
-  border-radius: 200px;
-  background: linear-gradient(-30deg, #fffb00 0%, #f3730a 20%, #ff4800 80%, #f1e108 100%);
-}
 
-.avatar {
-  border: 3px solid #fff;
-  border-radius: 50%;
-}
 
-.block-content {
-  height: 100%;
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
-}
 
 *,
 ::before,
 ::after {
   box-sizing: border-box;
-  font-family: 'Nunito', sans-serif;
-  font-size: 20px;
+  font-family: 'Nunito';
 }
 
 /**
@@ -31302,12 +31288,6 @@ video {
 
 .content-none {
   content: none;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Nunito:wght@300&display=swap');
-
-* {
-  font-family: 'Nunito', sans-serif;
 }
 
 @media (min-width: 640px) {
